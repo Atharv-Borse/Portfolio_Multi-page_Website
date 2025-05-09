@@ -1,0 +1,63 @@
+main {
+    padding: 25px;
+}
+
+main p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: auto;
+    padding: 10px 0;
+    width: 85vw;
+}
+
+main .box2 {
+    color: var(--text-light);
+    background-color: var(--primary-bg);
+    padding: 5px;
+    border-radius: 6px;
+}
+
+main .box2 h2 {
+    padding: 5px 20px 0 15px;
+}
+
+main .box2 ul {
+    color: var(--text-light);
+    padding: 10px 50px;
+}
+
+main .box2 ul li a {
+    color: var(--text-light);
+    text-decoration: none;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: large;
+}
+
+main .box2 a:hover {
+    color: var(--accent-color);
+}
+
+main .box3 {
+    margin: 20px 10px 0 10px;
+}
+
+main .box3 ul {
+    font-size: 20px;
+    font-weight: 500;
+    margin: auto;
+    padding: 0 0 0 50px;
+    width: 85vw;
+}
+
+footer {
+    padding: 25px;
+}
+
+footer p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: auto;
+    padding: 10px 0;
+    width: 85vw;
+}

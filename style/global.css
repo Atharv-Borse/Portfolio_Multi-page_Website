@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:wght@300&display=swap');
+
+:root {
+    --primary-bg: hsl(220, 30%, 10%);
+    --accent-color: #00bcd4;
+    --text-light: white;
+    --font-main: "Poppins", sans-serif;
+    --font-heading: "Dancing Script", sans-serif;
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-main);
+}
+
+header {
+    background-color: var(--primary-bg);
+    padding: 10px 40px 10px 10px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-container1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container2:nth-child(3) {
+    position: relative;
+}
+
+.logo img {
+    width: 100px;
+}  
+
+.website-pages {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.website-pages li {
+    font-size: larger;
+    padding: 0 10px 0 10px;
+}
+
+.website-pages li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--text-light);
+    transition: color 0.3s ease;
+}
+
+.website-pages li a:hover {
+    color: var(--accent-color); 
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    color: var(--text-light);
+    list-style: none;
+    margin: 10px 50px;
+}
+
+.title :first-child {
+    font-size: 38px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+} 
+
+.title :nth-child(2) {
+    font-size: 20px;
+}
+
+footer {
+    background-color: var(--primary-bg);
+    color: #eee;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #4fc3f7;
+    text-decoration: none;
+}
+
+footer .social-links a {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+footer a:hover {
+    color: #bae9ff;
+}
+
+footer {
+    padding: 25px;
+}
+
+footer p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: auto;
+    padding: 10px 0;
+    width: 85vw;
+}
+
+html {
+    scroll-behavior: smooth;
+  } 

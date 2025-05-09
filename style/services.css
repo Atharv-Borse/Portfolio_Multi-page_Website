@@ -1,0 +1,63 @@
+main{
+    padding: 25px;
+}
+
+main .heading p { 
+    text-align: center;
+    font-family: var(--font-heading); 
+    font-size: 28px;
+    font-weight: 600;
+}
+
+main .hbox h1 {  
+    font-size: 32px;
+    font-weight: 700;
+}
+
+main h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+main .hbox p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px auto; 
+    width: 85vw;
+}
+
+main .box1 ol li {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px auto; 
+    width: 85vw;
+}
+
+main .box1 ol p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 auto; 
+    width: 85vw; 
+    padding: 0 0 0 15px;
+}
+
+main .box2 p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px auto;
+    width: 85vw;
+}
+
+main .box2 ol li {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px auto;
+    width: 80vw;
+}
+
+main .box2 ul li {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px auto;
+    width: 85vw;
+}
