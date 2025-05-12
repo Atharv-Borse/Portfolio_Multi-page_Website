@@ -1,0 +1,24 @@
+/Portfolio_Multi-Page Website/
+│
+├── /pages/
+│   ├── index.html            # Home
+│   ├── about.html            # About Me
+│   ├── services.html         # Explore my Services
+│   └── contact.html          # Contact Us
+│
+├── /css/
+│   ├── global.css            # Main global stylesheet (including navbar, footer, etc.)
+│   ├── index.css             # Specific styles for index.html 
+│   ├── about.css             # Specific styles for about.html
+│   ├── services.css          # Specific styles for services.html
+│   └── contact.css           # Specific styles for contact.html
+│
+├── /assests/
+│   ├── /images/
+│   │   └── logo.png          # Site logo and favicon
+│   └── /files/
+│       └── portfolio.pdf
+│
+└── /fonts/                   # Custom fonts(from google fonts)
+    ├── poppins
+    └── dancing script
